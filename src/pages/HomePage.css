@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+}
+
+button:active {
+    background-color: blue;
+    border-color: white;
+    color: pink;
+}
